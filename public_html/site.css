@@ -1,0 +1,58 @@
+body {
+	background-color: #fff;
+}
+#card {
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	top: 45%;
+	margin-top: -150px;
+	background: #FFF;
+	width: 400px;
+	height: 200px;
+	padding: 45px 40px 50px;
+	-moz-box-shadow: 10px 10px 15px #666;
+	-webkit-box-shadow: 10px 10px 15px #666;
+	box-shadow: 10px 10px 15px #666;
+}
+h1, h2 {
+	margin-left: 75px;
+}
+h1 {
+	color: #1F1B1B;
+	font-size: 42px;
+	font-family: 'Ubuntu', sans-serif;
+}
+h2 {
+	color: #272323;
+	font-size: 27px;
+	line-height: 10px;
+	margin-top: 10px;
+	font-family: 'Ubuntu', sans-serif;
+}
+#content {
+	margin-top: 30px;
+	line-height: 20px;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+}
+p {
+	height: 25px;
+}
+#content .descriptor{
+	color: #AAA;
+	width: 60px;
+	margin-right: 15px;
+	float: left;
+	text-align: right;
+	font-style: italic;
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+a:hover {
+	text-decoration: underline;
+	color: #000;
+}
